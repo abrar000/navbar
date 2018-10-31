@@ -1,0 +1,33 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: relative;
+    display: grid;
+    width: 25%;
+    background: grey;
+    
+}
+nav ul li{
+    text-decoration: none;
+    background: black;
+    color: azure;
+    padding: 2rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    list-style-type: none;
+    text-align: center;
+}
+
+ nav ul li:hover{
+    color: silver;
+    
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+.buttons button{
+    float: right;
+}
+
